@@ -1,0 +1,24 @@
+import java.util.ArrayList;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		M_integer_class myint = new M_integer_class(4);
+//		M_char mychar = new M_char('H');
+//		M_double mydouble = new M_double(49.4);
+//		
+		My_generic<Integer,String> myint = new My_generic<>(4,"hi");
+		My_generic mychar = new My_generic('H',"hello");
+		My_generic mydouble = new My_generic(49.4,"xnxx");
+		
+		
+		ArrayList<String> myfrinds = new ArrayList<>();
+		
+		
+		mychar.getvalue();
+		
+
+	}
+
+}

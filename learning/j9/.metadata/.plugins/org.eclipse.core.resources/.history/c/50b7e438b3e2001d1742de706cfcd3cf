@@ -1,0 +1,18 @@
+package combobox;
+
+import java.awt.FlowLayout;
+
+import javax.swing.JFrame;
+import java.awt.Button;
+public class My_frame {
+	My_frame(){
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setSize(420,420);
+		this.setLayout(new FlowLayout());
+		
+		this.pack();
+		this.setVisible(true);
+
+		
+	}
+}

@@ -1,0 +1,18 @@
+package _7_6_proo;
+
+import javax.swing.JOptionPane;
+
+public class joptionpane {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		JOptionPane .showMessageDialog(null, "usless info","title",JOptionPane.PLAIN_MESSAGE);
+		JOptionPane .showMessageDialog(null, "usless info","title",JOptionPane.INFORMATION_MESSAGE);
+//		JOptionPane .showMessageDialog(null, "usless info","title",JOptionPane.QUESTION_MESSAGE);
+//		JOptionPane .showMessageDialog(null, "usless info","title",JOptionPane.WARNING_MESSAGE);
+//		JOptionPane .showMessageDialog(null, "usless info","title",JOptionPane.ERROR_MESSAGE);
+//		
+
+	}
+
+}

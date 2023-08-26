@@ -1,0 +1,48 @@
+package buttons;
+//package testing;package newtst;
+
+import java.awt.event.ActionEvent;
+//import java.awt.event.ActionEvent;
+////import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.Action;
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+public class My_frame extends JFrame implements ActionListener{
+	JButton button;
+	ImageIcon icon = new ImageIcon("C:\\Users\\VEGA Laptop\\Downloads\\Download_icons8-button-24.png");
+	My_frame(){
+		
+		button = new JButton();
+		button.setBounds(200,100,50,100);
+		button.addActionListener(this);
+//		button.addActionListener(e -> System.out.println("hi1"));
+		button.setText("iam button");
+		button.setFocusable(false);
+		button.setIcon(icon);
+		
+		
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setLayout(null);
+		this.setSize(500,500);
+		this.setVisible(true);
+//		this.setBackground();
+		this.add(button);
+		System.out.println("hihi");
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		
+		if (e.getSource()==button) {
+			System.out.println("hi");
+		}
+		
+		
+	}
+
+
+	
+}

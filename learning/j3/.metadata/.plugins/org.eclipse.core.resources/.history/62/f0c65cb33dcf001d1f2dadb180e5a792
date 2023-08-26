@@ -1,0 +1,12 @@
+package pro_code_at_3_30;
+
+public class Main {
+	int[] numbers = new int[3];
+	char [] charactar = new char[5];
+	String [] strings = new String[6];
+	
+	array_various_types_3_30_prooo[] refregerator = new array_various_types_3_30_prooo[5];
+	
+	
+	
+}

@@ -1,0 +1,7 @@
+package mouse_listner;
+
+import javax.swing.JPanel;
+
+public class Drag_panel extends JPanel {
+
+}

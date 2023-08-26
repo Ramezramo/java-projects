@@ -1,0 +1,16 @@
+package mouse_listner;
+
+import javax.swing.JFrame;
+
+public class Myframe extends JFrame {
+	
+	
+	Myframe(){
+		this.setTitle("Drage drop");
+		this.setSize(600,600);
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setVisible(true);
+		
+	}
+
+}

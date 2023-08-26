@@ -1,0 +1,14 @@
+
+public class My_generic <Thing>{
+	
+	Thing x;
+	
+	 My_generic(Thing x){
+		
+	}
+	 public Thing getvalue() {
+		 System.out.println(x);
+		 return x;
+	 }
+
+}

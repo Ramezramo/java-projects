@@ -1,0 +1,46 @@
+package check_box;
+
+import java.awt.Button;
+import java.awt.FlowLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JCheckBox;
+import javax.swing.JFrame;
+
+public class My_frame extends JFrame implements ActionListener {
+	JCheckBox checkbox ;
+	JButton button;
+	My_frame(){
+		
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setSize(420,420);
+		this.setLayout(new FlowLayout());
+		
+		button = new JButton("submit");
+		button.addActionListener(this);
+		
+		
+		checkbox  = new JCheckBox();
+		checkbox.setText("iam not robot");
+		checkbox.setFocusable(false);
+		
+		this.add(button);
+		this.add(checkbox);
+		this.pack();
+		this.setVisible(true);
+		
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		// TODO Auto-generated method stub
+		if (e.getSource()==button) {
+			System.out.println(checkbox.isSelected());
+			
+		}
+		
+	}
+
+}

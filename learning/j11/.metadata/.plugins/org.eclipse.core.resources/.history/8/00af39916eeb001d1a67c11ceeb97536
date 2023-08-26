@@ -1,0 +1,13 @@
+
+public class My_generic <Thing>{
+	
+	Thing x;
+	
+	 My_generic(Thing x){
+		
+	}
+	 public Thing getvalue() {
+		 return x;
+	 }
+
+}

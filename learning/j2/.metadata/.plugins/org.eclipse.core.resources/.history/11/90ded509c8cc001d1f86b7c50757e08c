@@ -1,0 +1,18 @@
+package oop_in_java;
+
+public class Car_2_54_prooo {
+	String tires = "4";
+	String driver = "ramez";
+	Car_2_54_prooo (String maker_name,int age,double weight){
+		
+	}
+	
+	void run() {
+		System.out.println("i am running");
+		
+	}
+	void stop() {
+		System.out.println("stoping...");
+		
+	}
+}

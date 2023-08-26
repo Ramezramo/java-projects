@@ -1,0 +1,25 @@
+package procode;
+
+public class usfull_of_string_1_53_pro {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String name = " Bro ";
+//		boolean result = name.equalsIgnoreCase("bro");
+//		int result = name.length();
+//		char result = name.charAt(0);
+//		int result = name.indexOf("o");
+//		boolean result = name.isEmpty();
+//		String result = name.toUpperCase();
+//		String result = name.toLowerCase();
+//		String result = name.trim();//if there is a spaces in the word this will delet it 
+		String result = name.replace(" ", "");
+		
+		
+		
+		System.out.println(result);
+		
+	}
+
+}

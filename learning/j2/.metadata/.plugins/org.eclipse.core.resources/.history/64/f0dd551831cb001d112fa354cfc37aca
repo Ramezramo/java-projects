@@ -1,0 +1,15 @@
+package procode;
+
+public class usfull_of_string_1_53_pro {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String name = "Bro";
+		boolean result = name.equalsIgnoreCase("bro");
+		
+		System.out.println(result);
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package hi;
+
+public class tsst {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Friend frind1= new Friend("ramez");
+		Friend frind2 = new Friend("yousef");
+		Friend frind3 = new Friend("elhack");
+		Friend frind4 = new Friend("zero");
+		
+		System.out.println(Friend.frinds_num);
+		
+	}
+
+}

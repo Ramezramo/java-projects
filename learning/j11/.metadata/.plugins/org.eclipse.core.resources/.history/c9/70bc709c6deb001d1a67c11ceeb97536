@@ -1,0 +1,14 @@
+
+public class M_char {
+	Character x;
+	
+	public M_char(Character x){
+		this.x = x;
+		
+	}
+	
+	public Character getvalue() {
+		return x;
+	
+}
+}

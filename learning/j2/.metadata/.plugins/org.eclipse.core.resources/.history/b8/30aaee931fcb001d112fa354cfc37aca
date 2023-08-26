@@ -1,0 +1,14 @@
+package procode;
+
+public class array_1_38_pro {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String[] cars = {"tesla","BMW","corvette"};
+		
+		cars[0] = "ramez";
+		System.out.println(cars[0]);
+
+	}
+
+}

@@ -1,0 +1,20 @@
+package prooo_new;
+
+import java.io.File;
+public class working_with_files {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		File file = new File ("C:\\Users\\VEGA Laptop\\Desktop\\secret_message.txt");
+		
+		if (file.exists()) {
+			System.out.println("the file exists:o!");
+		}
+		else {
+			System.out.println("no file in this directory");
+		}
+		
+
+	}
+
+}

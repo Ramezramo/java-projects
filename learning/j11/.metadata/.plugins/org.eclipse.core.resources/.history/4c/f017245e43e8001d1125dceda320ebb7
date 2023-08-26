@@ -1,0 +1,28 @@
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+public class my_panel extends JPanel{
+	
+	final int p_width =500;
+	final int p_hight =700;
+	
+	Image enemy;
+	Image backg;
+	Timer timer;
+	
+	int xvelocity = 1;
+	int yvelocity = 1;
+	int x = 0 ;
+	int y = 0 ;
+	
+	
+	my_panel() {
+		// TODO Auto-generated constructor stub
+		this.setPreferredSize(new Dimension(p_width,p_hight));
+		
+	}
+	
+	
+
+}

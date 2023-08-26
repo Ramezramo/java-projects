@@ -1,0 +1,12 @@
+package oop_in_java;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Car_2_54_prooo my_car = new Car_2_54_prooo();
+		System.out.println(my_car.make);
+
+		my_car.run();
+	}
+
+}

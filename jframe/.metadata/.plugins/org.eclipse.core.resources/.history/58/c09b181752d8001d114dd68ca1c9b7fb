@@ -1,0 +1,18 @@
+package working_with_jframe;
+import javax.swing.JFrame;
+public class jframe {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		JFrame  frame = new JFrame();//creats a frame
+		frame.setTitle("GTA V");//window title
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);//what will do when close
+		frame.setResizable(false);
+		frame.setSize(420,420);
+		frame.setVisible(true);
+		
+
+	}
+
+}

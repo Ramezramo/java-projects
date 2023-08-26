@@ -1,0 +1,20 @@
+package error;
+import java.util.*;
+public class Exception {
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		System.out.println("inter a whole number to devide ");
+		int x  = scan.nextInt();
+		
+		System.out.println("inter a whole number to devide by :");
+		int y  = scan.nextInt();
+		
+		int z = x/y;
+		
+		System.out.println("result = "+z);
+		
+	}
+
+}

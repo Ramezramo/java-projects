@@ -1,0 +1,23 @@
+ package _6_47_proo;
+
+//import javax.swing.JFrame;
+//import javax.swing.JLayeredPane;
+
+public class jlayeredpane {
+ 
+	public static void main(String[] args) {
+		
+		System.out.println("hi");
+//		JLayeredPane layeredpane = new JLayeredPane();
+//		layeredpane.setBounds(0,0,500,500);
+////		
+//		JFrame frame = new JFrame();
+//		frame.add(frame);
+//		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//		frame.setSize(500,500);
+//		frame.setLayout(null);
+//		frame.setVisible(true);
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package proo_5_2_projects;
+
+public class file_writer_and_reader {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

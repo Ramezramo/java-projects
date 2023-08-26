@@ -1,0 +1,25 @@
+package _7_6_proo;
+
+import javax.swing.JOptionPane;
+
+public class joptionpane {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		JOptionPane .showMessageDialog(null, "usless info","title",JOptionPane.PLAIN_MESSAGE);
+//		JOptionPane .showMessageDialog(null, "usless info","title",JOptionPane.INFORMATION_MESSAGE);
+//		JOptionPane .showMessageDialog(null, "usless info","title",JOptionPane.QUESTION_MESSAGE);
+//		while(true) {
+//		JOptionPane .showMessageDialog(null, "ur computer has avirus","title",JOptionPane.WARNING_MESSAGE);
+//		JOptionPane .showMessageDialog(null, "usless info","title",JOptionPane.ERROR_MESSAGE);
+//		
+//		int tru_fals = JOptionPane .showConfirmDialog(null, "usless info","title",JOptionPane.INFORMATION_MESSAGE);
+		
+//		String name = JOptionPane.showInputDialog("what is your name@");
+//		System.out.println("hello "+name);
+		String[] responses = {"no you are awesome","you perfect"};
+		JOptionPane.showOptionDialog(null, "you are awesome", "secret message ", JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.INFORMATION_MESSAGE, null, responses, 0);
+
+	}
+
+}

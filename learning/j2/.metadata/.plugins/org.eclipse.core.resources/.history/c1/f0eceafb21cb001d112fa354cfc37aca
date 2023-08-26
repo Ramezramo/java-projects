@@ -1,0 +1,21 @@
+package procode;
+
+public class three_d_arraays_1_44_pro {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String[][] two_d = {
+								{"ramez","keroles","tena"},
+								{"mina","jaoseph","beshoy"},
+								{"feby","shahera","mona"}
+							};
+		for (int i = 0 ;i <two_d.length;i++) {
+			System.out.println();
+			for (int j = 0 ;j <two_d[i].length;j++) {
+				System.out.println(two_d[i][j]+" ");
+			}
+		}
+		
+	}
+
+}

@@ -1,0 +1,22 @@
+
+public class My_generic <Thing,Thing2>{
+	
+	Thing x;
+	Thing2 x2;
+	
+	 My_generic(Thing x,Thing2 x2){
+		 this.x = x;
+		 this.x2 = x2;
+		
+	}
+	 public Thing getvalue() {
+		 System.out.println("first value = "+x);
+		 System.out.println("second value = "+x2);
+		 return x;
+	 }
+//	public void getvalue() {
+//		// TODO Auto-generated method stub
+//		
+//	}
+
+}
